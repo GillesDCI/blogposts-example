@@ -1,5 +1,5 @@
 const {Schema, model} = require('mongoose');
-const postSchema = require('./Post').schema;
+//const postSchema = require('./Post').schema;
 
 const userSchema = new Schema({
     dateCreated:{type:Date, required:true, default:Date.now},
